@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-30T01:09:10 IST" name="Default suite" finished-at="2020-04-30T01:11:03 IST" duration-ms="112801">
+    <groups>
+      <group name="Report1">
+        <method signature="ActiTest2.Create_new_task()[pri:2, instance:testpackage2.ActiTest2@6b19b79]" name="Create_new_task" class="testpackage2.ActiTest2"/>
+        <method signature="ActiTest2.Enter_Customer()[pri:3, instance:testpackage2.ActiTest2@6b19b79]" name="Enter_Customer" class="testpackage2.ActiTest2"/>
+        <method signature="ActiTest2.LoginCredentials()[pri:1, instance:testpackage2.ActiTest2@6b19b79]" name="LoginCredentials" class="testpackage2.ActiTest2"/>
+      </group> <!-- Report1 -->
+    </groups>
+    <test started-at="2020-04-30T01:09:10 IST" name="Default test" finished-at="2020-04-30T01:11:03 IST" duration-ms="112801">
+      <class name="testpackage2.ActiTest2">
+        <test-method is-config="true" signature="launchBrowser1()[pri:0, instance:testpackage2.ActiTest2@6b19b79]" started-at="2020-04-30T01:09:10 IST" name="launchBrowser1" finished-at="2020-04-30T01:09:29 IST" duration-ms="19406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser1 -->
+        <test-method signature="LoginCredentials()[pri:1, instance:testpackage2.ActiTest2@6b19b79]" started-at="2020-04-30T01:09:29 IST" name="LoginCredentials" finished-at="2020-04-30T01:09:30 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCredentials -->
+        <test-method signature="Create_new_task()[pri:2, instance:testpackage2.ActiTest2@6b19b79]" started-at="2020-04-30T01:09:30 IST" name="Create_new_task" finished-at="2020-04-30T01:10:39 IST" duration-ms="69101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_new_task -->
+        <test-method signature="Enter_Customer()[pri:3, instance:testpackage2.ActiTest2@6b19b79]" started-at="2020-04-30T01:10:39 IST" name="Enter_Customer" finished-at="2020-04-30T01:11:03 IST" duration-ms="23464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_Customer -->
+      </class> <!-- testpackage2.ActiTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
